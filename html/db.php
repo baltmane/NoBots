@@ -1,5 +1,5 @@
 <?php
-$con = mysqli_connect("localhost","root","atariCartridges22!","register");
+$con = mysqli_connect("localhost","db01","bVbo9rbi8VGmnWL3qzzR","register");
 // Check connection
 if (mysqli_connect_errno())
   {
