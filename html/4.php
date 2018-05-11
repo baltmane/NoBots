@@ -10,13 +10,21 @@ $black = imagecolorallocate($tt_image, 0, 0, 0);
 $blue = imagecolorallocate($tt_image, 0, 0, 255); 
 $font_size = 8; 
 imagestring($tt_image, $font_size, 5, 8, $text, $blue);
-for($x = 0; $x < 11; $x += 1)
+
+for($y = 0; $y < 10; $y += 4)
 {
-    imagesetpixel($tt_image, rand(0,54), $x, $black);
+    for($x = 0; $x < 60; $x +=4)
+    {
+	imageline($tt_image, $x, $y, $x + rand(0,4), $y, $black);
+    }
 }
-for($x = 21; $x < 35; $x += 1)
+
+for($y = 22; $y < 35; $y += 4)
 {
-    imagesetpixel($tt_image, rand(0,54), $x, $black);
+    for($x = 0; $x < 60; $x +=4)
+    {
+	imageline($tt_image, $x, $y, $x + rand(0,4), $y, $black);
+    }
 }
 /* Avoid Caching */
 header("Expires: Tue, 01 Jan 2000 00:00:00 GMT");
