@@ -68,13 +68,5 @@ function myFunction() {
 </form>
 </div>
 
-<div class ="nobots">
-<img width="130" height="80" src="/css/nobots.png">
-</div>
-
-<div class ="footer">
-<img width="250" height="250" src="/css/owasp.jpg" >
-</div>
-
 </body>
 </html>

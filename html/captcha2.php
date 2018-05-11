@@ -96,7 +96,7 @@ if(isset($_POST["captcha"]) && $_POST["captcha"] != "" && $_SESSION["ttcapt2"] =
     echo "<div id=\"tt_capcorrect\">Congratulations on the new shirt!</div>";
     if($_SESSION['cart'] == 5)
     {
-        echo("flag{y3ll0wp0lkad0tb1k1n1}");
+        echo("flag{n0w1tkn0wsm0rsec0de}");
         $_SESSION['cart'] = 0;
     }
     else
